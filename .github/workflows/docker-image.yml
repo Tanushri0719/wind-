@@ -39,8 +39,8 @@ jobs:
 
       # Step 6: Build the Docker image
       - name: Build the Docker image
-        run: docker build . --file Dockerfile --tag Tanushri/myimages:latest
+        run: docker build . --file Dockerfile --tag Tanushri0719/wind:latest
 
       # Step 7: Push the Docker image to Docker Hub
       - name: Push the Docker image
-        run: docker push Tanushri/myimages:latest
+        run: docker push Tanushri0719/wind:latest
